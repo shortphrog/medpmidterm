@@ -154,20 +154,36 @@ p {
 .next-btn:hover {
   background-color: #4b45a0;
 }
+.back-btn {
+  position: absolute;
+  bottom: 100px;
+  left: 10%;
+  padding: 10px 20px;
+  background-color: #1b3b06;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.back-btn:hover {
+  background-color: #4b45a0;
+}
 
 /* Page background images */
 #page1 {
-  background-image: url('intro.png');
+  background-image: url('');
   z-index: 9;
 }
 
 #page2 {
-  background-image: url('ceramicstore.png');
+  background-image: url('intro.png');
   z-index: 8;
 }
 
 #page3 {
-  background-image: url('https://example.com/adventure.jpg');
+  background-image: url('ceramicstore.png');
   z-index: 7;
 }
 #page4 {
@@ -186,7 +202,10 @@ p {
   background-image: url('https://example.com/adventure.jpg');
   z-index: 3;
 }
-
+#page7 {
+  background-image: url('https://example.com/adventure.jpg');
+  z-index: 3;
+}
 
 #checkbox-cover:checked ~ .book {
   transform: translateX(200px);
