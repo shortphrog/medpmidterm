@@ -171,40 +171,47 @@ p {
   background-color: #4b45a0;
 }
 
-/* Page background images */
 #page1 {
   background-image: url('');
-  z-index: 9;
+  z-index: 11;
 }
 
 #page2 {
   background-image: url('intro.png');
-  z-index: 8;
+  z-index: 10;
 }
 
 #page3 {
   background-image: url('ceramicstore.png');
-  z-index: 7;
+  z-index: 9;
 }
 #page4 {
   background-image: url('https://example.com/adventure.jpg');
-  z-index: 6;
+  z-index: 8;
 }
 #page5 {
   background-image: url('https://example.com/adventure.jpg');
-  z-index: 5;
+  z-index: 7;
 }
 #page6 {
   background-image: url('https://example.com/adventure.jpg');
+  z-index: 6;
+}
+#page7 {
+  background-image: url('https://example.com/adventure.jpg');
+  z-index: 5;
+}
+#page8 {
+  background-image: url('https://example.com/adventure.jpg');
   z-index: 4;
 }
-#page7 {
+#page9 {
   background-image: url('https://example.com/adventure.jpg');
   z-index: 3;
 }
-#page7 {
+#page10 {
   background-image: url('https://example.com/adventure.jpg');
-  z-index: 3;
+  z-index: 2;
 }
 
 #checkbox-cover:checked ~ .book {
