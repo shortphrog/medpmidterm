@@ -1,17 +1,19 @@
 body {
-  font-family: "Poppin", sans-serif;
+  font-family: 'FreeMono', monospace;
   background-color: #2e3537;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
-  padding: 0;
+  padding: 12px 0;
   background: linear-gradient(135deg, #a2ded0, #b8e994);
+  overflow-wrap: break-word;
+
 }
 
 .book, .storybook {
-  width: 800px;
+  width: 850px;
   height: 600px;
   position: relative;
   background-color: white;
@@ -58,7 +60,7 @@ input {
 .page {
   position: absolute;
   background-color: white;
-  width: 800px;
+  width: 850px;
   height: 600px;
   border-radius: 0 15px 15px 0;
   margin-top: 10px;
@@ -122,8 +124,13 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 17px;
+  margin-right: auto;
   margin-bottom: 40px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  padding: 10px 0;
+
 }
 
 .next-btn {
@@ -143,20 +150,31 @@ p {
 /* Page background images */
 #page1 {
   background-image: url('intro.png');
-  z-index: 3;
+  z-index: 9;
 }
 
 #page2 {
   background-image: url('ceramicstore.png');
-  z-index: 2;
+  z-index: 8;
 }
 
 #page3 {
   background-image: url('https://example.com/adventure.jpg');
-  z-index: 1;
+  z-index: 7;
+}
+#page4 {
+  background-image: url('https://example.com/adventure.jpg');
+  z-index: 6;
+}
+#page5 {
+  background-image: url('https://example.com/adventure.jpg');
+  z-index: 5;
+}
+#page6 {
+  background-image: url('https://example.com/adventure.jpg');
+  z-index: 4;
 }
 
-/* Book page flipping effect */
 #checkbox-cover:checked ~ .book {
   transform: translateX(200px);
 }
@@ -180,6 +198,11 @@ p {
   transform: rotateY(-180deg);
   z-index: 3;
 }
+#checkbox-page3:checked ~ .book #page3 {
+  transform: rotateY(-180deg);
+  z-index: 4;
+}
+
 
 .page.hidden {
   transform: rotateY(-180deg);
