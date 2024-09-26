@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Fairy Tale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="storybook">
+    <div class="page" id="page1">
+      <h1>Once Upon a Time</h1>
+      <p>There was a monk who lived in the mountains. </p>
+      <button class="next-btn" onclick="goToPage(2)">Next</button>
+    </div>
+
+    <div class="page" id="page2">
+      <h1>The Monk</h1>
+      <p>This monk had quite the hobby of collecting ceramic goods</p>
+      <button class="next-btn" onclick="goToPage(3)">Next</button>
+    </div>
+
+    <div class="page" id="page3">
+      <h1>The Adventure Begins</h1>
+      <p>Luna flew through the forest, discovering beautiful hidden places...</p>
+      <button class="next-btn" onclick="goToPage(1)">Start Over</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
