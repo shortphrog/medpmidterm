@@ -182,11 +182,11 @@ p {
 }
 
 #page3 {
-  background-image: url('ceramicstore.png');
+  background-image: url('monk.png');
   z-index: 9;
 }
 #page4 {
-  background-image: url('https://example.com/adventure.jpg');
+  background-image: url('ceramicstore.png');
   z-index: 8;
 }
 #page5 {
@@ -194,11 +194,11 @@ p {
   z-index: 7;
 }
 #page6 {
-  background-image: url('https://example.com/adventure.jpg');
+  background-image: url('buku.png');
   z-index: 6;
 }
 #page7 {
-  background-image: url('https://example.com/adventure.jpg');
+  background-image: url('buku.png');
   z-index: 5;
 }
 #page8 {
@@ -206,7 +206,7 @@ p {
   z-index: 4;
 }
 #page9 {
-  background-image: url('https://example.com/adventure.jpg');
+  background-image: url('reveal.png');
   z-index: 3;
 }
 #page10 {
